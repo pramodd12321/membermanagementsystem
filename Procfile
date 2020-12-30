@@ -1,0 +1,1 @@
+web: gunicorn MMS.wsgi --log-file -
