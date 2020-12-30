@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from . models import *
+from models import Member, Designation, Organization, FiscalYearRecord, MembershipFee, LogRecord
 
 admin.site.register(Member)
 admin.site.register(Designation)
